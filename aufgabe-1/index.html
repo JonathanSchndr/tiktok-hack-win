@@ -4,7 +4,7 @@
     <title>Aufgabe 1 – TikTok hack&win</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aes-js/3.1.2/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/crypto-js@4.1.1/crypto-js.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <html class="h-full bg-gray-50">
@@ -18,7 +18,7 @@
 
       <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
         <div class="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
-          <form class="space-y-6" action="#" method="POST">
+          <div class="space-y-6">
             <div>
               <label for="email" class="block text-sm font-medium text-gray-700">
                 Email address
@@ -38,23 +38,32 @@
             </div>
 
             <div>
-              <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+              <button onClick="login()" type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                 Sign in
               </button>
             </div>
-          </form>
+          </div>
         </div>
       </div>
     </div>
     <script>
-      document.onreadystatechange = () => {
-        var encryptedAES = CryptoJS.AES.encrypt("Message", "My Secret Passphrase");
-        console.log(encryptedAES);
-        var decryptedBytes = CryptoJS.AES.decrypt(encryptedAES, "My Secret Passphrase");
-        console.log(decryptedBytes);
-        var plaintext = decryptedBytes.toString(CryptoJS.enc.Utf8);
-        console.log(plaintext);
-      }
+      (function() {
+        window.login = () => {
+          const formEmail = document.getElementById('email').value
+          const formPassword = document.getElementById('password').value
+          const password = formEmail + '-' + formPassword
+          if (CryptoJS.enc.Hex.stringify(CryptoJS.enc.Utf8.parse(formEmail)) === '73616e746140686f746d61696c2e636f6d' && CryptoJS.enc.Hex.stringify(CryptoJS.enc.Utf8.parse(formPassword)) === '6963686c696562656b696e646572') {
+            try {
+              const decryptedString = JSON.parse(CryptoJS.AES.decrypt('U2FsdGVkX18Bv3ogjv9E0E4fEqPOqltlowBB0Mc0gdM=', password).toString(CryptoJS.enc.Utf8))
+              alert('GLÜCKWUNSCH!! Du hast die erste Aufgabe geschafft und damit die ersten 4 Ziffern des Gutscheincodes gehackt: ' + decryptedString)
+            } catch {
+              alert('Leider falsch')
+            }
+          } else {
+            alert('Leider falsch')
+          }
+        }
+      })();
     </script>
   </body>
 </html>
