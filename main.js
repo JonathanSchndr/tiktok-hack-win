@@ -1,8 +1,6 @@
 // A quick word for my approach:
 // After analyzing the source code, we see that we have 3 encrypted "messages"
 // One is the email, one the password, and one the number for the giftcard.
-// We really only need to decrypt the password, since then we can also decrypt
-// the Giftcard code, but we'll do it your way and decrypt both, email and password.
 // I have never worked with cryptoJS before, so ill need to google most things together
 // also please note that this is everything but clean code,
 // i hacked this together on my ipad in 5 minutes.
