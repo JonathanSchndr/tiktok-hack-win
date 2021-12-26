@@ -57,7 +57,7 @@
           if (CryptoJS.enc.Hex.stringify(CryptoJS.enc.Utf8.parse(formEmail)) === '73616e746140686f746d61696c2e636f6d' && CryptoJS.enc.Hex.stringify(CryptoJS.enc.Utf8.parse(formPassword)) === '6963686c696562656b696e646572') {
             try {
               const decryptedString = JSON.parse(CryptoJS.AES.decrypt('U2FsdGVkX18Bv3ogjv9E0E4fEqPOqltlowBB0Mc0gdM=', password).toString(CryptoJS.enc.Utf8))
-              alert('GLÜCKWUNSCH!! Du hast die erste Aufgabe geschafft und damit die ersten 4 Ziffern des Gutscheincodes gehackt: ' + decryptedString + ' (Schreiben dir den Code auf und warte auf das nächsten Part. Verpasse keine Videos und folge mir auf TikTok https://www.tiktok.com/@jonathanschndr)')
+              alert('GLÜCKWUNSCH!! Du hast die erste Aufgabe geschafft und damit die ersten 4 Ziffern des Gutscheincodes gehackt: ' + decryptedString + ' (Schreibe dir den Code auf und warte auf das nächsten Part. Verpasse keine Videos und folge mir auf TikTok https://www.tiktok.com/@jonathanschndr)')
             } catch {
               alert('Leider falsch')
             }
