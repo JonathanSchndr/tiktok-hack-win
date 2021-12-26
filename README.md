@@ -16,7 +16,7 @@ Jede Aufabe gibt dir ein Teil vom dem Amazon-Gutschein-Code frei. Hast du alle 3
 - Aufgabe 2: Noch nicht verfügbar
 - Aufgabe 3: Noch nicht verfügbar
 
-## Teilnahmebedingungen für TikTok-hack&win-Contest 
+## Teilnahmebedingungen für TikTok-hack&win-Contest
 
 1. Bei dem Contest handelt es sich um eine Aktion von Jonathan Schneider
 
@@ -27,6 +27,8 @@ Jede Aufabe gibt dir ein Teil vom dem Amazon-Gutschein-Code frei. Hast du alle 3
 4. Die Teilnahme am Contest erfolgt bei TikTok durch das Lösen der verschiedenen Rätsel. Jedes Rätsel gibt ein Teil des Amazon-Gutschein-Codes frei. Alle 3 Teile zusammengefügt ergeben den Gutscheincode.
 
 6. Der Gewinner erhält durch die Lösung automatisch den 25€-Amazon-Gutschein, den er direkt einlösen darf.
+
+7. Es gibt nur einen Gutschein. Der erste und schnellste Teilnehmer der die Rätsel löst erhält den gültigen Gutschein. Alle anderen Teilnehmer haben kein Anrecht auf einen Gewinn, auch wenn diese zu einem späteren Zeitpunkt das Rätsel lösen.
 
 8. Eine Barauszahlung des Gutscheins Codes ist nicht möglich.
 
