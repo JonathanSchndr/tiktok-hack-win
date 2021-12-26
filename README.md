@@ -7,7 +7,7 @@ Jede Aufabe gibt dir ein Teil vom dem Amazon-Gutschein-Code frei. Hast du alle 3
 - Aufgabe 3: Noch nicht verfügbar (Ergebnis: 1111-111111-XXXX)
 
 ## TikTok Video Erklärung:
-- Aufgabe 1: Noch nicht verfügbar
+- Aufgabe 1: https://www.tiktok.com/@jonathanschndr/video/7046044612066036998
 - Aufgabe 2: Noch nicht verfügbar
 - Aufgabe 3: Noch nicht verfügbar
 
