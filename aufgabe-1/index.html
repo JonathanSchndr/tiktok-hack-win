@@ -47,12 +47,14 @@
       </div>
     </div>
     <script>
-      var encryptedAES = CryptoJS.AES.encrypt("Message", "My Secret Passphrase");
-      console.log(encryptedAES);
-      var decryptedBytes = CryptoJS.AES.decrypt(encryptedAES, "My Secret Passphrase");
-      console.log(decryptedBytes);
-      var plaintext = decryptedBytes.toString(CryptoJS.enc.Utf8);
-      console.log(plaintext);
+      document.onreadystatechange = () => {
+        var encryptedAES = CryptoJS.AES.encrypt("Message", "My Secret Passphrase");
+        console.log(encryptedAES);
+        var decryptedBytes = CryptoJS.AES.decrypt(encryptedAES, "My Secret Passphrase");
+        console.log(decryptedBytes);
+        var plaintext = decryptedBytes.toString(CryptoJS.enc.Utf8);
+        console.log(plaintext);
+      }
     </script>
   </body>
 </html>
