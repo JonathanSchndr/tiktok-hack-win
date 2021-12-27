@@ -8,7 +8,7 @@ Jede Aufabe gibt dir ein Teil vom dem Amazon-Gutschein-Code frei. Hast du alle 3
 
 ## TikTok Video Erklärung:
 - Aufgabe 1: https://www.tiktok.com/@jonathanschndr/video/7046044612066036998
-- Aufgabe 2: Noch nicht verfügbar
+- Aufgabe 2: https://www.tiktok.com/@jonathanschndr/video/7046342112320818438
 - Aufgabe 3: Noch nicht verfügbar
 
 ## TikTok Video Auflösung:
