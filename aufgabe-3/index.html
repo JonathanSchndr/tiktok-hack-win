@@ -33,6 +33,11 @@
         result.data.codes.forEach((code) => {
           xmlString += '<span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">'+code.name+'</span>';
         });
+
+        if (!result.data.codes.length) {
+          xmlString += 'Die Aufgabe ist nich nicht freigegeben und funktioniert noch nicht. Warte bis das TikTok Video online ist :)'
+        }
+
         wrapper.innerHTML = xmlString
         document.getElementById('wrapper').appendChild(wrapper)
       });
