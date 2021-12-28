@@ -4,7 +4,7 @@ Jede Aufabe gibt dir ein Teil vom dem Amazon-Gutschein-Code frei. Hast du alle 3
 ## Zu der Aufgabe:
 - Aufgabe 1: https://jonathanschndr.github.io/tiktok-hack-win/aufgabe-1/ (Ergebnis: XXXX-111111-1111)
 - Aufgabe 2: https://jonathanschndr.github.io/tiktok-hack-win/aufgabe-2/ (Ergebnis: 1111-XXXXXX-1111)
-- Aufgabe 3: Noch nicht verfügbar (Ergebnis: 1111-111111-XXXX)
+- Aufgabe 3: https://jonathanschndr.github.io/tiktok-hack-win/aufgabe-3/ (Ergebnis: 1111-111111-XXXX)
 
 ## TikTok Video Erklärung:
 - Aufgabe 1: https://www.tiktok.com/@jonathanschndr/video/7046044612066036998
